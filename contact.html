@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="./myphoto.jpg" type="image/x-icon">
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="tech.html">Technology</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+        <div class="container">
+            <h2 style="text-align: center; justify-content: center; display: flex;">Register with University Email</h2>
+            <form id="authForm">
+                <label>Name:</label>
+                <input type="text" required>
+
+                <label>Azhar Email:</label>
+                <input type="email" id="userEmail" placeholder="example@azhar.adu.eg" required>
+
+                <label>Password (Min 8 chars):</label>
+                <input type="password" id="userPass" required>
+
+                <button type="submit">Submit</button>
+            </form>
+            <p id="feedback"></p>
+            <div style="margin-top: 30px; text-align: center;">
+                <p>Need more academic resources?</p>
+                <a href="https://azu.edu.eg/" target="_blank" style="color: var(--primary); font-weight: bold;">
+                    Visit Faculty of Computers & AI Website
+                </a>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
